@@ -1,10 +1,3 @@
-/*
- * processing_fsm.h
- *
- *  Created on: Oct 22, 2024
- *      Author: Admin
- */
-
 #ifndef INC_PROCESSING_FSM_H_
 #define INC_PROCESSING_FSM_H_
 

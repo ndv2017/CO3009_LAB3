@@ -1,10 +1,3 @@
-/*
- * processing_fsm.c
- *
- *  Created on: Oct 22, 2024
- *      Author: Admin
- */
-
 #include "processing_fsm.h"
 
 enum FSM_STATE fsmState = 0;

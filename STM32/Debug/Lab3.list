@@ -37,13 +37,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  16 .debug_macro  000168bb  00000000  00000000  0002b798  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   0000a7ab  00000000  00000000  00042053  2**0
+ 17 .debug_line   0000aa49  00000000  00000000  00042053  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    00082406  00000000  00000000  0004c7fe  2**0
+ 18 .debug_str    00082432  00000000  00000000  0004ca9c  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000053  00000000  00000000  000cec04  2**0
+ 19 .comment      00000053  00000000  00000000  000ceece  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  000026f0  00000000  00000000  000cec58  2**2
+ 20 .debug_frame  000026f0  00000000  00000000  000cef24  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -732,7 +732,6 @@ __STATIC_FORCEINLINE void __disable_irq(void)
  8000508:	e7fe      	b.n	8000508 <Error_Handler+0x8>
 
 0800050a <fsmInit>:
-
 #include "processing_fsm.h"
 
 enum FSM_STATE fsmState = 0;

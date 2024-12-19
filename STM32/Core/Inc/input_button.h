@@ -1,10 +1,3 @@
-/*
- * input_button.h
- *
- *  Created on: Oct 22, 2024
- *      Author: Admin
- */
-
 #ifndef INC_INPUT_BUTTON_H_
 #define INC_INPUT_BUTTON_H_
 

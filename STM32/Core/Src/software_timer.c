@@ -1,10 +1,3 @@
-/*
- * software_timer.c
- *
- *  Created on: Oct 22, 2024
- *      Author: Admin
- */
-
 #include "software_timer.h"
 
 uint8_t timerFlags[TIMER_NUMBER];

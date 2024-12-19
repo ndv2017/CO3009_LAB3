@@ -1,10 +1,3 @@
-/*
- * input_button.c
- *
- *  Created on: Oct 22, 2024
- *      Author: Admin
- */
-
 #include "input_button.h"
 
 static uint16_t buttonPins[BUTTON_NUMBER] = {BUTTON_0_Pin, BUTTON_1_Pin, BUTTON_2_Pin, BUTTON_3_Pin};
